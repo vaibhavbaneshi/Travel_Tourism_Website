@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel&Tourism</title>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="./style.css"></script>
+    <link rel="stylesheet" href = "./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  </head>
+  <body>
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href = "#" class = "logo"><span>T</span>ravel</a>
+        <nav class = "navbar">
+            <a href = "#home">home</a>
+            <a href = "#book">book</a>
+            <a href = "#packages">packages</a>
+            <a href = "#service">service</a>
+            <a href = "#gallery">gallery</a>
+            <a href = "#contact">contact</a>
+        </nav>
+        <div class = "icons">
+            <i class = "fas fa-search" id = "search-btn"></i>
+            <i class = "fas fa-user" id = "login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder = "Search Here">
+            <label for="search-bar" class = "fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-time" id="form-close"></i>
+        <form action = "">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class = "box" placeholder ="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password?<a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>discover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" src="./video/AeroPlane.mp4\"></span>
+            <span class="vid-btn" data-src="../travel_tourism_website/video/AeroPlane.mp4"></span>
+            <span class="vid-btn" data-src="../travel_tourism_website/video/Cruise Ship.mp4"></span>
+            <span class="vid-btn" data-src="../travel_tourism_website/video/Woman walking on beach with lantern.mp4"></span>
+            <span class="vid-btn" data-src="../travel_tourism_website/video/Car Driving Through free stock video.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="../travel_tourism_website/video/train.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="../travel_tourism_website/pictures/time-to-travel-concept-happy-excited-tourist-people-sightseeing-journey-around-world-vector-illustration-landmarks-different-178490362.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <!--packages section start-->
+
+    </section>
+
+    <!--packages section end-->
+
+    <section class="service" id="service">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>description</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>description</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>description</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>description</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>description</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>description</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="/pictures/g1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>description</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/pictures/g2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>description</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/pictures/g3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>description</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/pictures/g4.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>description</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/pictures/g5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>description</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/pictures/g6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>description</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/pictures/g7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>description</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/pictures/g8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>description</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/pictures/g9.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>description</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">               
+                        <div class="box">
+                        <img src="" alt="">
+                        <h3>Devansh Srivastava</h3>
+                        <p>description</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                     </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="" alt="">
+                        <h3>Harshit Saini</h3>
+                        <p>description</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="" alt="">
+                        <h3>Abhinav Pant</h3>
+                        <p>description</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="" alt="">
+                        <h3>Moti</h3>
+                        <p>description</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="/pictures/contact.jpg" alt="">
+            </div>
+            <forms action="">
+                <div class="inputBox">
+                    <input type="type" placeholder="name">
+                    <input type="email" placeholder="email"> 
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject"> 
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </forms>
+        </div>
+    </section>
+
+    <section class="brand-container">
+            <div class="swiper-container brand-slipper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/pictures/logo1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/pictures/logo2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/pictures/logo3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/pictures/logo4.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/pictures/logo5.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/pictures/logo6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>description</p>
+            </div>
+            <div class="box">
+                <h3>branch location</h3>
+                <a href="#">India</a>
+                <a href="#">USE</a>
+                <a href="#">Japan</a>
+                <a href="#">France</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src = "js/script.js"></script> 
+  </body>
+</html>
